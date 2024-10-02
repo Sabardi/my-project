@@ -3,7 +3,7 @@
     <!-- wrapper -->
     <section v-if="products" class="w-12/4 grid grid-cols-5 gap-3">
       <template v-for="product in products " :key="product.id">
-        <CardProduk class="col-span-1" :product="product"/>
+        <ProductCard class="col-span-1" :product="product" />
       </template>
     </section>
 
@@ -16,7 +16,8 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import CardProduk from './components/CardProduk.vue';
+import ProductCard from './components/ProductCard .vue';
+
 
 const products = ref([]);
 
