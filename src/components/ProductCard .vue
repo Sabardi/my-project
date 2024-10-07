@@ -41,7 +41,7 @@ const props = defineProps({
 const { addBookmark, isBookmarked } = useBookmarkStore();
 
 // Fungsi untuk toggle bookmark
-const toggleBookmark = (productId) => {
-    addBookmark(productId);
+const toggleBookmark = (product) => {
+    addBookmark(product);
 };
 </script>
