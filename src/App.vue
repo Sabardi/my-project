@@ -1,7 +1,7 @@
 <template>
-  <main class="min-h-screen bg-slate-100 grid place-items-center p-6">
+  <main class="grid min-h-screen p-6 bg-slate-100 place-items-center">
     <!-- wrapper -->
-    <section v-if="products" class="w-12/4 grid grid-cols-5 gap-3">
+    <section v-if="products" class="grid grid-cols-5 gap-3 w-12/4">
       <template v-for="product in products " :key="product.id">
         <ProductCard class="col-span-1" :product="product" />
       </template>
