@@ -15,7 +15,7 @@
                 </path>
               </svg>
 
-              <!-- <span class="ml-3 text-gray-600">{{ product.rating.rate }}</span> -->
+              <span class="ml-3 text-gray-600">{{ product.rating ? product.rating.rate : 0 }}</span>
             </span>
             <span class="flex py-2 pl-3 ml-3 border-l-2 border-gray-200 space-x-2s">
               <a class="text-gray-500">

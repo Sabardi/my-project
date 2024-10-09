@@ -4,7 +4,7 @@
             <div class="flex flex-wrap -m-4">
                 <template v-for="product in products " :key="product.id">
                     <div class="w-full p-4 pt-10 lg:w-1/4 md:w-1/2">
-                        <ProductCard :product="product" />
+                        <ProductCard :product="product"  />
                     </div>
                 </template>
             </div>

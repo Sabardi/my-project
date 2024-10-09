@@ -9,6 +9,9 @@
                 <h3 class="mb-1 text-xs tracking-widest text-gray-500 title-font">{{ product.category }}</h3>
                 <h2 class="text-lg font-medium text-gray-900 title-font">{{ product.title }}</h2>
                 <p class="mt-1">${{ product.price }}</p>
+                <span class="mt-1">star
+                    {{ product.rating.rate}}
+                </span>
             </div>
 
     </RouterLink>
