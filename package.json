@@ -12,7 +12,8 @@
     "bootstrap-icons": "^1.11.3",
     "feather-icons": "^4.29.2",
     "pinia": "^2.2.4",
-    "vue": "^3.4.37"
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
